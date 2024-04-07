@@ -1,0 +1,113 @@
+/*----------- TAGS -------------*/
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+header img {
+  margin-right: 10px;
+  width:50px;
+  height:50px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+    background-color: #666;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom:30px;
+}
+
+nav a {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+    font-size:16px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*-------- CLASES ------------------*/
+
+.divider {
+    padding: 15px;
+    width: 50%;
+    float: left;
+}
+
+.sectionUno {
+    width: 50%;
+    float: right;
+    text-orientation: center;
+    text-align: center;
+    padding: 15px;
+}
+.sectionDos {
+    width: 70%;
+    float: left;
+    text-orientation: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.sectionDos:hover {    
+    float: right;    
+}
+
+.sectionTres {
+    width: 35%;
+    float: left;
+    text-orientation: left;
+    text-align: right;
+    padding: 15px;
+}
+
+.sectionTres:hover {
+    float: right;
+    background-color: lightgray;
+}
+
+.copy {
+    text-align: center;
+    font-weight: bold;
+}

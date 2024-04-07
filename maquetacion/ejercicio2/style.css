@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.perfil {
+  margin: 20px;
+  /* funcion para que los float no se superpongan */
+  overflow: auto;
+}
+
+.foto {
+  float: left;
+  margin: 20px;
+}
+
+.foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.informacion {
+  float: right;
+}
+
+.informacion h2 {
+  margin-top: 0;
+}
+
+.informacion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.informacion ul li {
+  margin-bottom: 10px;
+}
+
+.publicaciones {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.publicaciones h2 {
+  margin-top: 0;
+}
+
+.publicaciones ul {
+  list-style: none;
+  padding: 0;
+}
+
+.publicaciones ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.publicaciones ul li a {
+  text-decoration: none;
+  /* color formato rgb  */
+  color: #000;
+}
+
+
+.publicaciones ul li a:hover {
+  /* color formato rgb  */
+  color: #090;
+}

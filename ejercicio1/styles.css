@@ -1,0 +1,16 @@
+.withImg {
+			width: 400px;
+		}
+.tercerDivClass {
+	width: 500px;
+	height: 600px;
+	background-color: lightgrey;
+	padding: 50px;
+	border-color: #000000;
+	border-style: solid dashed;
+
+}
+.spanIdClass{
+	font-size: 18px;
+	margin: 50px;
+}
