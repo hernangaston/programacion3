@@ -1,0 +1,359 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.contenido {
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.encabezado {
+	font-size: 13px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+
+
+.links{
+	text-decoration: none;
+	color: rgba(0,0,0,.87);
+	margin: 10px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.image_labs {
+	border: none;
+	width:24px;
+	height:24px;
+	color: grey;
+}
+
+.image_apps {
+	border: none;
+	width:24px;
+	height:24px;
+	color: grey;
+}
+
+.user_icon {
+	border-radius: 50%;
+}
+
+
+.boton_iniciar_sesion {
+	text-decoration: none;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-top: 5px;
+    padding: 15px 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+}
+
+/*----------------------------------------------------*/
+.contenido_centro {
+	height:30vh;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	
+}
+.image_google {
+	width:272px;
+	height:92;
+	overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
+}
+
+.caja_form_1 {
+	margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 6px;
+    position: relative;
+}
+
+.caja_form_2 {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+
+.caja_interior_centro{
+	flex: 1;
+    display: flex;
+    padding: 0 8px 0 0;
+}
+
+.caja_lupa{
+	display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    height: 46px;
+}
+
+.lupa_icon {
+	display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    height: 46px;
+}
+
+.span_icon {
+	margin-top: 3px;
+    color: #9aa0a6;
+	height:20px;
+	line-height:20px;
+	width:20px;
+	display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+.caja_busquedas{
+    display: flex;
+    flex: 0 0 auto;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+}
+
+.busqueda_por_voz {
+	flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.caja_busquedas_lens{
+	flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.clase_lens {
+	height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.div_central_global {
+	padding: 20px;
+	max-height: 120px;
+	flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.div_central_form{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.div_textarea_contenedor {
+	color: transparent;
+    white-space: pre;
+    position: absolute;
+    pointer-events: none;
+}
+
+.textarea_inicial {
+	font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: monospace;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: -internal-textarea-auto;
+    cursor: text;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+    white-space: pre-wrap;
+}
+
+.textarea_segundo {
+	line-height: 24px;
+    font-size: 16px;
+    flex: 100%;
+}
+
+.textarea_central{
+	resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.microfono {
+	height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.div_botones_suerte {
+	padding-top: 18px;
+	height: 70px;
+}
+
+.boton_buscar_y_suerte{
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*-----------------------CAJA INFERIOR-------------------------------*/
+
+.div_caja_inferior {
+	flex-shrink: 0;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.div_caja_inferior_2 {
+	text-align: center;
+}
+
+.div_caja_inferior_3 {
+	margin-top: 40px;
+	font-size: small;
+    margin-bottom: 24px;
+	color: #474747;
+    display: inline-block;
+    line-height: 28px;
+    height: 33vh;
+}
+
+.link_caja_inferior_3{
+	text-decoration: none;
+}
+
+/*--------------------------------FOOTER--------------------------*/
+
+.div_caja_footer {
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.caja_argentina{
+	padding: 5px;
+}
+
+.caja_argentina_2{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.caja_argentina_3{
+	display: flex;
+}
+
+.texto_argentina{
+	color: #1f1f1f;
+    padding: 15px;
+	border-bottom: 1px solid #dadce0;
+}
+
+.links_footer {
+	display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #1f1f1f;
+    padding: 15px;
+}
