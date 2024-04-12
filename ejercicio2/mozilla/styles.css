@@ -1,0 +1,70 @@
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+}
+.caja_superior{
+	height: 20vh;
+}
+
+.caja_central {
+    padding: 0 25px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+}
+
+.logo{
+	width: 82px;	
+}
+
+.letras{
+	margin-inline-start: 16px;
+}
+
+
+.caja_logo_letras {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 48px;
+}
+
+.caja{
+	cursor: default;
+  	display: flex;
+  	min-height: 52px;
+  	margin: 0 auto;
+  	position: relative;
+  	width: 720px;
+  	flex-direction: row;
+  	align-content: center;
+  	justify-content:start;
+}
+
+.caja_img{
+	margin-right: 5px;
+}
+
+.boton_caja{		
+	width: 100%;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	border: 1px solid transparent;
+	border-radius: 8px;	
+
+}
+
+.div_boton {
+	opacity: 0.54;
+	text-align: start;
+	display: flex;
+    align-items: center;	
+}
+
+.input_boton{
+	color: transparent;
+  	height: 100%;
+  	opacity: 0;
+  	position: absolute;
+  	inset: 0;
+}
