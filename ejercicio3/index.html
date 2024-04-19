@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="contenedor">
+    <h1>Calculadora</h1>
+    <form id="formulario">    	
+	    	<p>
+	    		<input type="number" id="valor1" placeholder="Ingrese primer valor">
+	        </p>
+	        <p>
+	        	<input type="number" id="valor2" placeholder="Ingrese segundo valor">
+	        </p>
+	        
+	        <button type="button" id="sumar">Sumar</button>
+	        <button type="button" id="restar">Restar</button>
+	        <button type="button" id="limpiar">Limpiar</button>
+	        <br>
+        <h1 id="resultado">Resultado: 0</h1>
+        
+    </form>
+    </div>
+    <!-- SE LLAMA EL ARCHIVO JAVASCRIPT EN EL PIE DEL HTML PARA ASEGURAR QUE EL DOM ESTE CARGADO AL MOMENTO DE USARLO CON JAVASCRIPT -->
+    <script src="index.js"></script>
+</body>
+</html>
